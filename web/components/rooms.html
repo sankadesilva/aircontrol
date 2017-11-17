@@ -1,0 +1,63 @@
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            Rooms Visualization
+            <!--<small>Version 2.0</small>-->
+        </h1>
+    </section>
+
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Select a room</h3>
+                    </div>
+                    <div class="box-body">
+                        <div class="col-md-1">
+                            <div class="btn-group vertical">
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createR1Graph()">
+                                    Floor 1
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createR2Graph()">
+                                    Floor 2
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createR3Graph()">
+                                    Floor 3
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-9" id="room-graph">
+                        </div>
+                        <div class="col-md-1">
+                            <div class="btn-group vertical">
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createOGraph()">
+                                    Oxygen
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createCOGraph()">
+                                    Carbon Dioxyde
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createNGraph()">
+                                    Carbon Monoxide
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createVOCGraph()">
+                                    VOC
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createHUMGraph()">
+                                    Humidity
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createTEMPGraph()">
+                                    Temperature
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-footer clearfix">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
