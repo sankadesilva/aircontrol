@@ -52,7 +52,7 @@
             };
             var data = [trace2];
             var layout = {
-                title: 'Nitrogen Variation',
+                title: 'Carbon Monoxide Variation',
                 height: '100%',
                 width: '100%',
                 xaxis: {
