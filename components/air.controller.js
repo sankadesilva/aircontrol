@@ -22,6 +22,20 @@
 
         createOGraph();
 
+        // var client = WindowsAzure.MobileServiceClient('866f66d6-ee26-4472-8c17-767eefb4fc51');
+        // console.log(client);
+
+        // var fileUri = 'https://gaslevels.file.core.windows.net';
+        // var fileService = AzureStorage.createFileServiceWithSas(fileUri, '?sv=2017-04-17&ss=bfqt&srt=sco&sp=rwdlacup&se=2018-01-10T06:21:01Z&st=2018-01-09T22:21:01Z&spr=https&sig=orlhKq%2FqA1KMUwt9dPOTMa8Qop2GqoAoPUgL%2FjSq5BE%3D');
+
+        // var blobService = AzureStorage.createBlobService();
+        // console.log(fileService);
+
+        // var azure = require('azure-storage');
+        // var blobSvc = azure.createBlobService();
+
+        // console.log(blobSvc);
+
         function createOGraph() {
             var xValues = [];
             var yValues = [];
