@@ -1,0 +1,67 @@
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            Air Percentage Visualization
+            <!--<small>Version 2.0</small>-->
+        </h1>
+    </section>
+
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Select air type</h3>
+                    </div>
+                    <div class="box-body">
+                        <div class="col-md-8">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createOGraph()">
+                                    Oxygen
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua"
+                                        data-ng-click="vm.createCOGraph()">
+                                    Carbon Dioxyde
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua"
+                                        data-ng-click="vm.createCMGraph()">
+                                    Carbon Monoxide
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua"
+                                        data-ng-click="vm.createVCGraph()">
+                                    Volatile Compounds
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createTGraph()">
+                                    Temperature
+                                </button>
+                                <button type="button" class="btn btn-default bg-aqua" data-ng-click="vm.createHGraph()">
+                                    Humidity
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="input-group date">
+                                <div class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                </div>
+                                <input type="text" class="form-control pull-right" id="datepicker">
+                            </div>
+                        </div>
+                        <div class="col-md-12" id="air-graph">
+                        </div>
+                    </div>
+                    <div class="box-footer clearfix">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    $('#datepicker').datepicker({
+        autoclose: true
+    });
+</script>
