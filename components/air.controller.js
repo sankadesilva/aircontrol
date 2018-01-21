@@ -255,7 +255,7 @@
                     title: 'Time(hours)'
                 },
                 yaxis: {
-                    title: 'Percentage(%)'
+                    title: 'percentage(%)'
                 }
             };
             Plotly.newPlot('air-graph', data, layout);
