@@ -383,8 +383,6 @@
             Plotly.newPlot('room-graph', data, layout);
         }
 
-
-
         function createVCGraph() {
             var data = [{
                 z: [[null, null, null, 12, 13, 14, null, null],
