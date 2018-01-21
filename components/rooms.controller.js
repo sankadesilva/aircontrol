@@ -343,6 +343,46 @@
             Plotly.newPlot('room-graph', data, layout);
         }
 
+        function createHGraph() {
+            var data = [{
+                z: [[null, null, null, null, null, 14, 15, 16],
+                    [null, 1, null, 11, null, null, null, 17],
+                    [null, 2, null, 7, null, null, null, 18],
+                    [null, 3, null, 8, null, 23, null, 19],
+                    [5, 4, 10, 9, null, null, 12, 20],
+                    [null, 5, 4, 27, null, 4, null, 21],
+                    [null, 4, 5, 26, null, 24, 23, 22]],
+                zsmooth: 'best',
+                type: 'heatmap',
+                showscale: false,
+                connectgaps: true,
+            }];
+            var layout = {
+                title: 'Variation',
+                height: '100%',
+                width: '100%',
+                xaxis: {
+                    autorange: true,
+                    showgrid: false,
+                    zeroline: false,
+                    showline: false,
+                    autotick: true,
+                    ticks: '',
+                    showticklabels: false
+                },
+                yaxis: {
+                    autorange: true,
+                    showgrid: false,
+                    zeroline: false,
+                    showline: false,
+                    autotick: true,
+                    ticks: '',
+                    showticklabels: false
+                }
+            };
+            Plotly.newPlot('room-graph', data, layout);
+        }
+
 
 
         function createVCGraph() {
